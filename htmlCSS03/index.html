@@ -1,0 +1,65 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <h1>FORMLAR</h1>
+    <form action="kaydet.php">
+      <!-- gonder btonuna til=klayinca nereye veri gonderilecek anlaminda -->
+      <!-- bu form nereye kayit edilsin anlaminda  -->
+      <label for="ad">Adınız: </label>
+      <input
+        class="input"
+        id="ad"
+        type="text"
+        maxlength="20"
+        placeholder="isim giriniz"
+      />
+      <br />
+      <br />
+      <label for="şifre">Şifreniz:</label>
+      <input
+        class="input"
+        id="şifre"
+        type="password"
+        name="ad"
+        value=""
+        required=""
+      />
+      <!-- for ile id isimleri ayni olmali -->
+      <!-- required zorunlu veri girisi ister -->
+      <br />
+
+      <br />
+      <label for="email">Email:</label>
+      <input class="input" id="şifre" type="email" name="email" value="" />
+      <br />
+
+      <!-- label for demek bu label alttaki inputa aittir demek -->
+      <!-- type password yazilirsa sifre aciktan gorunmez -->
+      <br />
+      <br />
+      <label for="sayı">Yaşınız:</label>
+      <input
+        class="input"
+        id="sayı"
+        type="number"
+        name="yas"
+        value=""
+        min="0"
+        max="100"
+      />
+      <!--  karsidaki kisinin girdigi degerin adi name oluyor girilen deger de value -->
+      />
+      <!-- number yazilirsa sadece sayi girisi kabul eder -->
+      <br />
+      <br />
+      <input type="submit" value="Gönder" />
+      <input type="button" value="Temizle" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+* {
+  text-align: center;
+}
+.input {
+  margin-bottom: 2px; /*yazdiktan sonra alta koyulacak bosluk*/
+  width: 200px;
+  height: 20;
+}
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+}
