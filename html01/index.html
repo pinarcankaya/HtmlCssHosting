@@ -1,0 +1,101 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ilk Sayfam</title>
+  </head>
+  <body style="background-color: coral">
+    <h1>HTML</h1>
+
+    <!-- Style attribute ile verilen ozellikler aslinda CSS stillendirmeleridir. 
+Bu sekilde stillendirmelere Inline CSS denilir. -->
+
+    <!-- ana baslik-->
+    <h2 style="color: darkorchid">CSS</h2>
+    <!--onem sirasini gosterir h ile baslayanlar-->
+    <h3>JS</h3>
+    <br />
+    <br />
+    <!--enter gorevi gorur bir alt satira iner-->
+    <h4 style="font-size: 20px; color: chartreuse">Java</h4>
+    <h2>HTML nedir</h2>
+
+    <p>HTML Dersine Hosgeldiniz</p>
+    <p style="color: mediumblue">
+      Bugun <b>HTML</b> dersi gormeye basladik.<strong>HTML</strong> bir
+      <del>programlama </del> dili degildir sadece bir
+      <mark>isaretleme</mark> dilidir. <em>HTML</em> dersi cok <u>keyifli</u>
+    </p>
+
+    <!-- <b> etiketi ve <strong> etiketi istedigimiz alani koyu renk yapar -->
+    <!-- STRONG etiketi daha cok kullanilir semantik denir -->
+    <!-- mark etiketi istedigimiz yerin userini higtligth yapar -->
+    <!-- <em etiketi itelik yapar -->
+    <!-- u etiketi kelimenin altini cizer -->
+
+    <h2 style="color: darkred">---LISTE OLUSTURMA---</h2>
+    <br />
+    <p>HTML ile liste olusturmak icin &ltol&gt, ul gibi etiketler kullanilir</p>
+    <!-- ol etiketini "<" isareti koymadan ozel karakter ile yazdirilir -->
+    <!-- < isareti yapmak icin &lt basina koyulur &gt sonuna koyulur -->
+
+    <ol type="I" start"2">
+      <!-- type icine siralamak istedigmis sekli yazabilirz -->
+      <!-- start hangi sayidan baslamak istersek o yazilir -->
+      <!-- numarali liste olusturduk -->
+      <li>Ahmet</li>
+      <li>Mehmet</li>
+      <li>Hasan</li>
+      <li>Huseyin</li>
+    </ol>
+
+    <p>Maddeli liste olusturmak icin ul etiketi kullanilir.( &lt ul &gt )</p>
+    <ul type="square">
+      <!-- type"disc" yuvarlak isareti yapar -->
+      <!-- type=square kare isareti yapar -->
+      <!-- circle ici bos yuvarlak yapar -->
+      <li>Adana</li>
+      <li>Urfa</li>
+      <li>Antep</li>
+    </ul>
+    <p> Ic ice list olusturma</p>
+    <ol>
+     <li> 
+       Istanbul
+      <ul type="circle">
+          <li>Fatih</li>
+          <li>Uskudar</li>
+         <li>Esenyurt</li>
+        </ul>
+      </li>
+      <li>
+        Sakarya
+        <ul>
+          <li>Sapanca</li>
+          <li>Serdivan</li>
+        </ul>
+      </li>
+    </ol>
+
+    <h2>LINK VERME</h2>
+    <p>Link vermek icin &lta&gt etiketi kullanilir</p>
+    <a href="https://www.google.com.tr" target="_blank">Google icin tikla</a>
+    <!-- target attribute kullanirsak adresi yeni sekmede acar -->
+    <!--  a gibi bazi etiketler inline etikettit ayni satirdan devam eder -->
+    <br>
+    <a href="gorseller.html" target="_blank">  Gorseller icin tiklayiniz</a>
+    <br>
+   <a href="assets/img/kus.jpg" target="_blank">  Kus resmi icin tiklayiniz <img src="assets/img/kus.jpg" alt="kus" style="height: 20; width: 20;"></a>
+   <br>
+   <a href="mailto:pinarunalcan50@gmail.com"> Mail icin tiklayiniz</a>
+   
+<br>
+   <a href="https://wa.me/0033555888999"> Whatsapp  icin tiklayiniz</a>
+
+   <br>
+   <a href="tel:+3365451218754"> Telefon icin tiklayiniz</a>
+  </body>
+
+  <!-- <p>merhaba</p>  veri girisi gibi icerikler body disinda olmamali -->
+</html>

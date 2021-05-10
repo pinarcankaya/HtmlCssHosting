@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML | CSS Inline</title>
+  </head>
+  <style>
+    /* head icerisinde yazilan komutlar CSS kodlaridir' */
+    /* CSS selectorler ile istenilen html elemanina stillendirme yapilabilir */
+
+    /* style etiketi ile yapilan stillendirmeler sadece bu dosya icin gecerli olur  eger tum proje icin global bir stillendirme istersek  o zaman .css dosyasi olusturmak gerekir.ve bu dosyayi html ile import etmek gerekir*/
+    * {
+      text-align: center;
+    }
+    h1 {
+      color: blueviolet;
+      font-size: 25px;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", "Arial, sans-serif";
+      text-align: center;
+      margin-top: 50px;
+    }
+    p {
+      color: blue;
+    }
+    #p1 {
+      color: magenta;
+    }
+    .p2 {
+      color: aqua;
+      font-size: 20;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      text-align: left;
+    }
+  </style>
+  <body>
+    <h1>TABLO EKLEME</h1>
+    <h1>CSS stillendirme</h1>
+    <p id="p1">Bu bir paragraftir</p>
+    <!-- id bir css seelctordur ve tek element stillendirilecekse kullanmak daha mantiklidir.Id'ye erisim icin stillendirmede # kullanilir.ama birden element icin style degisecekse  style icine ornek h1{} tanimlanarak tum h1 ler degisir -->
+    <p class="p2">Bu da 2. paragraf</p>
+    <!-- class selectoru ise grup stillnedirmesi icin kullanilir -->
+    <p class="p2">CSS HTML'e gore daha fazla detay icermektedir</p>
+    <p>Bu paragrafin rengi p style icinde tanimlanan renktir</p>
+  </body>
+</html>
